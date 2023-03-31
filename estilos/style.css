@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav {
+  background-color: rgb(237, 143, 37);
+  width: 50%;
+}
+header nav .menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .menu li {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(237, 143, 37);
+  font-family: tipografia;
+}
+
+.box, .boxSecundario {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: black;
+  width: 200px;
+}
+
+.boxSecundario {
+  color: brown;
+}
+.boxSecundario .caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+/*# sourceMappingURL=style.css.map */
